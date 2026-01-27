@@ -1,5 +1,9 @@
 # Discord Token Checker
 
+![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Status](https://img.shields.io/badge/status-active-success)
+
 A **high-performance Discord token checking tool** designed to validate, clean, and organize large token lists efficiently. Capable of processing **thousands of tokens per second** while extracting detailed account information.
 
 ---
@@ -56,4 +60,5 @@ A **high-performance Discord token checking tool** designed to validate, clean, 
 
 1. **Install Python 3.8+**  
    https://www.python.org/downloads/
+
 
