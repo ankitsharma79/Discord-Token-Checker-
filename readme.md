@@ -58,7 +58,8 @@ A **high-performance Discord token checking tool** designed to validate, clean, 
 
 ## 🛠️ Installation
 
-1. **Install Python 3.8+**  
+1. **Install Python 3.11+**  
    https://www.python.org/downloads/
+
 
 
