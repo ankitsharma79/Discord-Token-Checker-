@@ -10,6 +10,7 @@ from urllib3.util.retry import Retry
 init(autoreset=True)
 
 class AccurateDiscordTokenChecker:
+    
     def __init__(self):
         self.valid_tokens = 0
         self.invalid_tokens = 0
@@ -40,7 +41,7 @@ class AccurateDiscordTokenChecker:
 
         self.total_tokens = len(tokens)
         if self.total_tokens == 0:
-            print(Fore.RED + "[!] No tokens found in the file!")
+            print(Fore.RED + "[!] No tokens found")
             return False
 
         for token in tokens:
@@ -133,8 +134,8 @@ class AccurateDiscordTokenChecker:
         open("valid.txt", "w").close()
         open("not_valid.txt", "w").close()
         
-        print(Fore.GREEN + f"[+] Starting with {thread_count} threads (slower but more accurate)...")
-        print(Fore.YELLOW + "[!] Double-checking all tokens for 100% accuracy...")
+        print(Fore.GREEN + f"[+] Starting with {thread_count} threads slower but more accurate...")
+        print(Fore.YELLOW + "[!] Double-checking all tokens for 100% accuracyyy...")
 
         threads = []
         for _ in range(thread_count):
@@ -148,7 +149,7 @@ class AccurateDiscordTokenChecker:
                 time.sleep(0.1)
         except KeyboardInterrupt:
             self.running = False
-            print(Fore.YELLOW + "\n[!] Shutting down gracefully...")
+            print(Fore.YELLOW + "\n[!] Shutting down...")
 
         for t in threads:
             t.join()
@@ -189,4 +190,5 @@ class AccurateDiscordTokenChecker:
 
 if __name__ == "__main__":
     checker = AccurateDiscordTokenChecker()
+
     checker.start(thread_count=20) 
