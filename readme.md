@@ -4,60 +4,54 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Status](https://img.shields.io/badge/status-active-success)
 
-A **high-performance Discord token checking tool** designed to validate, clean, and organize large token lists efficiently. Capable of processing **thousands of tokens per second** while extracting detailed account information.
-(100% working)
+A fast and reliable Discord token verification tool designed to clean, validate, and organize large collections of tokens. It is optimized for high performance and can process thousands of tokens per second while providing detailed account insights.
+
+This tool is stable, efficient, and suitable for both small and large-scale usage.
+
 ---
 
 ## Features
 
-### Ultra-Fast Checking
-- Multi-threaded token validation
-- Handles **thousands of tokens per second**
+### High-Speed Processing
+- Multi-threaded architecture for maximum performance  
+- Capable of validating thousands of tokens per second  
 
-### Detailed Analysis
-- Account validity status  
-- Nitro status  
-- Billing information  
+### Detailed Account Information
+- Valid and invalid token detection  
+- Nitro subscription status  
+- Billing availability  
 - Account flags and metadata  
 
-### Smart Cleaning
-- Removes:
-  - Invalid tokens
-  - Duplicate entries
-  - Incorrect token formats
-- Automatically organizes valid tokens
+### Automatic Cleaning
+- Removes invalid, duplicate, and malformed tokens  
+- Organizes valid tokens automatically  
 
-### Multiple Formats Supported
-- Supports `.txt` token files  
-- Works with various Discord token formats
+### Format Compatibility
+- Supports `.txt` files  
+- Works with multiple Discord token formats  
 
 ### Proxy Support
-- Optional proxy usage for large-scale checks
-- Proxy rotation support to avoid rate limits
+- Optional proxy usage for large workloads  
+- Proxy rotation to reduce rate-limiting issues  
 
-### Real-Time Statistics
-- Live progress tracking
-- Checked / remaining count
-- Estimated completion time
+### Live Statistics
+- Real-time progress display  
+- Checked and remaining token count  
+- Estimated completion time  
 
 ### Export Options
-- Save results in:
-  - `.txt`
+- Saves verified results in `.txt` format  
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
-- **Python 3.10 or higher**
-- Stable internet connection
+- Python 3.10 or higher  
+- Stable internet connection  
 
 ---
 
-## 🛠️ Installation
+## Installation
 
-1. **Install Python 3.10+**  
+1. Install Python 3.10 or newer  
    https://www.python.org/downloads/
-
-
-
-
